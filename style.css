@@ -1,4 +1,4 @@
-/* ===== Basic Page Layout ===== */
+
 body {
   font-family: Arial;
   background-color: #d5f1d8;
@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 
-/* ===== Form Container ===== */
+
 form {
   background-color: rgb(138, 136, 158);
   padding: 20px;
@@ -18,12 +18,11 @@ form {
 
 }
 
-/* ===== Form Headings ===== */
+
 h2, h3 {
   text-align: center;
 }
 
-/* ===== Label + Input ===== */
 label {
   display: block;
   margin-top: 15px;
@@ -37,7 +36,7 @@ input {
   box-sizing: border-box;
 }
 
-/* ===== Submit Button ===== */
+
 button[type="submit"] {
   margin-top: 20px;
   padding: 10px;
@@ -53,7 +52,6 @@ button[type="submit"]:hover {
   background-color: #45a049;
 }
 
-/* ===== Output Box ===== */
 #output {
   background-color: #fff;
   padding: 10px;
@@ -65,7 +63,6 @@ button[type="submit"]:hover {
   white-space: pre-wrap;
 }
 
-/* ===== Table Styling ===== */
 table {
   margin-top: 30px;
   border-collapse: collapse;
@@ -86,7 +83,6 @@ th {
   color: white;
 }
 
-/* ===== Table Buttons ===== */
 table button {
   padding: 5px 10px;
   margin-right: 5px;
@@ -104,3 +100,4 @@ table button:last-child {
   background-color: #FF4C4C; /* Delete */
   color: white;
 }
+
